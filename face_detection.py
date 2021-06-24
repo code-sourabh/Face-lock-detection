@@ -109,7 +109,7 @@ while True:
             sendMail('sourabhmishra1262@gmail.com' , 'sourabh')
                     
         if results[0] > results[1]:
-            sendMail('preetimishra@gmail.com' , 'preeti')
+            aws_ec2_ebs()
             
         else:
             cv2.putText(image , "No face found and locked" , (250,450) , cv2.FONT_HERSHEY_COMPLEX , 1 , (0,255,0) ,2)
